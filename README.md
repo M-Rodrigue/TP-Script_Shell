@@ -21,6 +21,9 @@ Vérifie si les nombres sont égaux (***EQ***ual). À ne pas confondre avec le �
 `$num1 -ne $num2`
 Vérifie si les nombres sont différents (***N***on ***E***qual).
 Encore une fois, ne confondez pas avec « != » qui est censé être utilisé sur des chaînes de caractères.
+### Nombre strictement inférieur
+`$num1 -lt $num2`
+Vérifie si num1 est inférieur ( < ) à num2 (***L***ower ***T***han).
 ### Nombre inférieur ou égal
 `$num1 -le $num2`
 Vérifie si num1 est inférieur ou égal ( <= ) à num2 (***L***ower or ***E***qual).
