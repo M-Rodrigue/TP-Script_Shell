@@ -12,7 +12,7 @@ do
   then
     gagne=true
     compteur=$((compteur+1))
-    echo "Vous avez gagné au bout de la "$compteur"ème tentative !"
+    echo "Vous avez gagné au bout de la $compteur ème tentative !"
     exit 0
   elif [ $nombre_a_tester -lt $nombre ]
   then
