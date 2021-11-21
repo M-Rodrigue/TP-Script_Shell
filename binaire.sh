@@ -1,13 +1,14 @@
 #!/bin/bash
 
 MaxBits=8
+
 pow ()
 {
   value2=1
-    for (( k=1 ; k<$i ; k ++ ))
-    do
-        let value2=$value2*2
-    done
+  for (( k=1 ; k<$i ; k ++ ))
+  do
+    let value2=$value2*2
+  done
 }
 
 if [ $# -eq 0 ]
