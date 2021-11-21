@@ -24,6 +24,7 @@ j=0
 
 for (( i=$MaxBits ; i>=0 ; i-- ))
 do
+
   pow
   if [ $value -ge $value2 ]
   then
